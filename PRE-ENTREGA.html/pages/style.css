@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+body {
+  min-height: 100vh;
+  color: antiquewhite;
+  background-color: #001d3d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#FGM__titulo{
+  font-size: xx-large;
+
+}
+header {
+  background-color: #001d3d;
+
+}
+
+nav { 
+  background-color: black;
+}
+
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  color: aliceblue;
+  display: flex;
+}
+
+.Nuevos-lanzamientos {
+  font-style: italic;
+  font-size: xx-large;
+
+}
+
+.caja_1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 325px;
+  height: 325px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+}
+
+.caja_2 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 325px;
+  height: 325px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+}
+
+.caja_3 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 325px;
+  height: 325px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+}
+
+.caja_4 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 600;
+  height: 325px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+}
+.caja_5 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 40;
+  height: 350px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+}
+
+
+header nav {
+  background-color: #000814;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  
+}
+header nav ul li {
+  margin: 20px;
+}
+
+#Nuevos__lanzamientos-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+
+
+
+}
+
+.Lorem{
+font-size: medium;
+font-weight: normal;
+}
