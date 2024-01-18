@@ -1,22 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap");
-
-$color-lorem: aliceblue;
-$color-fondo: rgb(16, 16, 50);
-
 body {
   min-height: 100vh;
-  background-color: $color-fondo;
-  color: $color-lorem;
+  background-color: rgb(16, 16, 50);
+  color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #FGM__titulo {
   font-size: xx-large;
-  color: $color-lorem;
+  color: aliceblue;
 }
 
 header {
-  background-color: $color-fondo;
+  background-color: rgb(16, 16, 50);
 }
 
 nav {
@@ -54,11 +50,12 @@ header nav ul li {
 .Nuevos-lanzamientos {
   font-style: italic;
   font-size: xx-large;
-  color: $color-lorem;
+  color: aliceblue;
 }
 
-.caja_1{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+.caja_1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   width: 325px;
   height: 325px;
   overflow: hidden;
@@ -66,18 +63,48 @@ header nav ul li {
   border-radius: 8px;
   color: aliceblue;
   position: relative;
+  transition: transform 2s;
+}
+
+.caja_1:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .caja_3 {
- @extend .caja_1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 325px;
+  height: 325px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+  transition: 2s;
 }
 
-.caja_2 {
-@extend .caja_1
+.caja_3:hover {
+  transform: scale(1.1, 1.1);
 }
 
+.caja_4 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 600;
+  height: 325px;
+  overflow: hidden;
+  margin: 15px;
+  border-radius: 8px;
+  color: aliceblue;
+  position: relative;
+  transition: 2s;
+}
+.caja_4:hover {
+  transform: scale(1.1, 1.1);
+}
 .caja_5 {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   width: 40;
   height: 350px;
   overflow: hidden;
@@ -85,6 +112,11 @@ header nav ul li {
   border-radius: 8px;
   color: aliceblue;
   position: relative;
+  transition: 2s;
+}
+
+.caja_5:hover {
+  transform: scale(1.1, 1.1);
 }
 
 #Nuevos__lanzamientos-box {
@@ -97,15 +129,23 @@ header nav ul li {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
   font-weight: bold;
-  color: $color-lorem;
+  color: aliceblue;
 }
 
 .Lorem {
   font-size: medium;
   font-weight: normal;
-  color: $color-lorem;
+  color: aliceblue;
 }
 
+@media (max-width: 770px) {
+.caja_1 {
+width: 100%
+};
+}
+.caja_3 {
+  width: 100%
+  }
 
 
-/*# sourceMappingURL=styles.scss.map */
+/*# sourceMappingURL=styles.css.map */
